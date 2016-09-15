@@ -16,12 +16,12 @@ defaults:
     path: ''
     type: posts
   values:
-    layout: post
+    layout: global
     permalink: "/posts/:title/"
 - scope:
     path: ''
     type: pages
   values:
-    layout: page
+    layout: global
 lang: en
 permalink: pretty
