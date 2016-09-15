@@ -1,16 +1,15 @@
 ---
 title: Acoge.me
 timezone: UTC
-lang: en
 collections:
+  dogs:
+    title: Dogs
+    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
-    output: true
-  dogs:
-    title: Dogs
     output: true
 defaults:
 - scope:
@@ -24,4 +23,5 @@ defaults:
     type: pages
   values:
     layout: page
+lang: en
 permalink: pretty
