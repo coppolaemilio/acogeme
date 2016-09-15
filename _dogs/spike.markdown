@@ -5,6 +5,8 @@ Need:
 - Vaccines
 - Transport
 - Residence
+photo:
+- "/uploads/duki.jpg"
 ---
 
 Spike is a good guy, and this is his description.
