@@ -5,6 +5,8 @@ collections:
   dogs:
     title: Dogs
     output: false
+    Need:
+    - 
   posts:
     title: Posts
     output: true
