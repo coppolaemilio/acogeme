@@ -2,11 +2,6 @@
 title: Acoge.me
 timezone: UTC
 collections:
-  dogs:
-    title: Dogs
-    output: false
-    Perrete:
-    - 
   posts:
     title: Posts
     output: true
