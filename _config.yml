@@ -11,17 +11,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: dogs
+  values:
+    layout: dogs
 sass:
   sass_dir: _sass
   style: compressed
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "dogs"
-    values:
-      layout: "dogs"
 exclude:
 - node_modules
 - Gruntfile.js
