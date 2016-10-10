@@ -3,3 +3,9 @@
 
 // Imports
 @import "../_sass/materialize";
+
+section.dog {
+  img {
+    max-width: 100%;
+  }
+}
