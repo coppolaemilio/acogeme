@@ -1,27 +1,11 @@
----
-title: Acoge.me
-timezone: UTC
-collections:
-  dogs:
-    title: Dogs
-    output: false
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: global
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: global
-lang: en
-permalink: pretty
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude: [
+  node_modules,
+  Gruntfile.js,
+  package.json,
+  Gemfile,
+  Gemfile.lock
+]
