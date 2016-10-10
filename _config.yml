@@ -5,6 +5,7 @@ collections:
   dogs:
     title: Dogs
     output: true
+    layout: dogs
   posts:
     title: Posts
     output: true
